@@ -18,7 +18,7 @@
 
 *SELENIUM is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms. You can use multiple programming languages like Java, C#, Python etc to create Selenium Test Scripts. Testing done using the Selenium tool is usually referred to as Selenium Testing.*
 
-**Selenium Software is not just a single tool**
+# Selenium Software is not just a single tool
 
 But a suite of software, each piece catering to different testing needs of an organization. Here is the list of tools ::::>>>>>
 
@@ -29,7 +29,7 @@ But a suite of software, each piece catering to different testing needs of an or
 
 ![image](https://www.guru99.com/images/SeleniumSuite.png)
 
-**How do I add selenium to Visual Studio?**
+# How do I add selenium to Visual Studio?
 
 ### Right-click on the project.
 ### Select 'Manage NuGet Packages…'
