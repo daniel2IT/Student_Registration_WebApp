@@ -22,12 +22,12 @@
 
 But a suite of software, each piece catering to different testing needs of an organization. Here is the list of tools ::::>>>>>
 
--Selenium Integrated Development Environment (IDE)
--Selenium Remote Control (RC)
+- Selenium Integrated Development Environment (IDE)
+- Selenium Remote Control (RC)
 - WebDriver
 - Selenium Grid
 
-![image](https://www.researchgate.net/profile/Hueseyin_Bodur/publication/298298027/figure/fig2/AS:339820552441867@1458030941634/RSA-algorithm-structure.png)
+![image](https://www.guru99.com/images/SeleniumSuite.png)
 
 **How do I add selenium to Visual Studio?**
 
