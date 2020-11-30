@@ -16,52 +16,13 @@ namespace Student_Registration_WebApp
         protected void registerButton_Click(object sender, EventArgs e)
         {
 
-            if (nameField.Text.Equals(""))
+            if (nameField.Text.Equals("") || surnameField.Text.Equals("") || personalCodeField.Text.Equals("") ||
+                genderSelection.SelectedIndex == 0 || addressField.Text.Equals("") || telephoneField.Text.Equals("") ||
+                programSelection.SelectedIndex == 0)
             {
-                errorLabel.Text = "Enter your name";
+                errorLabel.Text = "Fill/Select all Labels/Selections";
                 return;
             }
-
-            if (surnameField.Text.Equals(""))
-            {
-                errorLabel.Text = "Enter your surname";
-                return;
-            }
-
-            if (personalCodeField.Text.Equals(""))
-            {
-                errorLabel.Text = "Enter your confirmation password";
-                return;
-            }
-
-            if (/*programSelection.SelectedIndex == 0 ||*/ genderSelection.SelectedIndex == 0/* || modeSelection.SelectedIndex == 0*/)
-            {
-                errorLabel.Text = "Select Something";
-                return;
-            }
-
-            if (addressField.Text.Equals(""))
-            {
-                errorLabel.Text = "Enter your username";
-                return;
-            }
-
-            if (telephoneField.Text.Equals(""))
-            {
-                errorLabel.Text = "Enter your password";
-                return;
-            }
-            if (programSelection.SelectedIndex == 0)
-            {
-                errorLabel.Text = "Select Something";
-                return;
-            }
-            if (modeSelection.SelectedIndex == 0)
-            {
-                errorLabel.Text = "Select Something";
-                return;
-            }
-
 
             if (agreeCheck.Checked == false)
             {
