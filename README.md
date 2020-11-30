@@ -14,6 +14,20 @@
 
 *The ASP.NET runtime transforms the .aspx page into an instance of a class, which inherits from the base class page of the .Net framework. Therefore, each ASP.NET page is an object and all its components i.e., the server-side controls are also objects.*
 
+**What is Selenium?**
+
+*SELENIUM is a free (open-source) automated testing framework used to validate web applications across different browsers and platforms. You can use multiple programming languages like Java, C#, Python etc to create Selenium Test Scripts. Testing done using the Selenium tool is usually referred to as Selenium Testing.*
+
+**Selenium Software is not just a single tool**
+
+But a suite of software, each piece catering to different testing needs of an organization. Here is the list of tools ::::>>>>>
+
+-Selenium Integrated Development Environment (IDE)
+-Selenium Remote Control (RC)
+- WebDriver
+- Selenium Grid
+
+![image](https://www.researchgate.net/profile/Hueseyin_Bodur/publication/298298027/figure/fig2/AS:339820552441867@1458030941634/RSA-algorithm-structure.png)
 
 **How do I add selenium to Visual Studio?**
 
@@ -23,19 +37,6 @@
 ### Enter 'Selenium' in the search box.
 ### Select 'Selenium.Webdriver.IEDriver' from the search results.
 ### Click 'Install'
-
-![image](https://www.researchgate.net/profile/Hueseyin_Bodur/publication/298298027/figure/fig2/AS:339820552441867@1458030941634/RSA-algorithm-structure.png)
-
-## How It Looks like: STEP BY STEP
-
-### General
-![image](/img/1.png)
-
-### Encrypted 
-![image](/img/2.png)
-
-### Decrypted 
-![image](/img/3.png)
 
 
 ## PARTICIPATED
