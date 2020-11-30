@@ -60,13 +60,13 @@ namespace Student_Registration_WebApp
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// TextBox1 control.
+        /// personalCodeField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox personalCodeField;
 
         /// <summary>
         /// Label4 control.
@@ -96,13 +96,13 @@ namespace Student_Registration_WebApp
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// usernameField control.
+        /// addressField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox usernameField;
+        protected global::System.Web.UI.WebControls.TextBox addressField;
 
         /// <summary>
         /// Label6 control.
@@ -114,13 +114,13 @@ namespace Student_Registration_WebApp
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// passwordField control.
+        /// telephoneField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox passwordField;
+        protected global::System.Web.UI.WebControls.TextBox telephoneField;
 
         /// <summary>
         /// Label7 control.
@@ -175,5 +175,14 @@ namespace Student_Registration_WebApp
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label errorLabel;
+
+        /// <summary>
+        /// registerButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button registerButton;
     }
 }

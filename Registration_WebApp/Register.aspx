@@ -12,7 +12,7 @@
         </div>
          <div>
             <asp:Label ID="Label3" runat="server" Width="100%" Text="Personal code:"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" Width="100%" Text=""></asp:TextBox>
+            <asp:TextBox ID="personalCodeField" runat="server" Width="100%" Text=""></asp:TextBox>
         </div>
         <div>
             <asp:Label ID="Label4" runat="server" Width="100%" Text="Gender:"></asp:Label>
@@ -24,29 +24,30 @@
         </div>
         <div>
             <asp:Label ID="Label5" runat="server" Width="100%" Text="Address:"></asp:Label>
-            <asp:TextBox ID="usernameField" runat="server" Width="100%" Text=""></asp:TextBox>
+            <asp:TextBox ID="addressField" runat="server" Width="100%" Text=""></asp:TextBox>
         </div>
         <div>
             <asp:Label ID="Label6" runat="server" Width="100%" Text="Telephone Number:"></asp:Label>
-            <asp:TextBox ID="passwordField" runat="server" Width="100%" Text=""></asp:TextBox>
+            <asp:TextBox ID="telephoneField" runat="server" Width="100%" Text=""></asp:TextBox>
         </div>
       <div>
             <asp:Label ID="Label7" runat="server" Width="100%" Text="Study Program:"></asp:Label>
             <asp:DropDownList ID="programSelection" runat="server" Width="50%">
                 <asp:ListItem Value="0">Study Program</asp:ListItem>
-                <asp:ListItem Value="1">Electronics engineering</asp:ListItem>
-                <asp:ListItem Value="2">Information systems</asp:ListItem>
-                <asp:ListItem Value="3">Computer engineering</asp:ListItem>
-                <asp:ListItem Value="4">Computer systems</asp:ListItem>
-                <asp:ListItem Value="5">Software systems</asp:ListItem>
+                    <asp:ListItem Value="1">Electronics engineering</asp:ListItem>
+                    <asp:ListItem Value="2">Information systems</asp:ListItem>
+                    <asp:ListItem Value="3">Computer engineering</asp:ListItem>
+                    <asp:ListItem Value="4">Computer systems</asp:ListItem>
+                    <asp:ListItem Value="5">Software systems</asp:ListItem>
                 <asp:ListItem Value="6">Telecommunication systems</asp:ListItem>
             </asp:DropDownList>
+
       </div>
       <div>
             <asp:Label ID="Label8" runat="server" Width="100%" Text="Mode Of Study:"></asp:Label>
             <asp:DropDownList ID="modeSelection" runat="server" Width="40%">
                 <asp:ListItem Value="0">Mode Of Study</asp:ListItem>
-                <asp:ListItem Value="1">Full-time</asp:ListItem>
+                 <asp:ListItem Value="1">Full-time</asp:ListItem>
                 <asp:ListItem Value="2">Part-time</asp:ListItem>
             </asp:DropDownList>
       </div>
@@ -57,7 +58,7 @@
             <asp:Label ID="errorLabel" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
         </div>
         <div style="padding-top: 10px;">
-           
+            <asp:Button ID="registerButton" Width="100%" runat="server" OnClick="registerButton_Click" Text="Register" />
         </div>
     </div>
 </asp:Content>
