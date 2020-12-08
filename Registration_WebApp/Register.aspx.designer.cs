@@ -177,6 +177,42 @@ namespace Student_Registration_WebApp
         protected global::System.Web.UI.WebControls.Label errorLabel;
 
         /// <summary>
+        /// birthdayLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label birthdayLabel;
+
+        /// <summary>
+        /// studentExists control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label studentExists;
+
+        /// <summary>
+        /// phoneLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label phoneLabel;
+
+        /// <summary>
+        /// personalCodeLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label personalCodeLabel;
+
+        /// <summary>
         /// registerButton control.
         /// </summary>
         /// <remarks>

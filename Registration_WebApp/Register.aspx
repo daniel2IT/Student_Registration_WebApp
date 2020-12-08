@@ -52,10 +52,14 @@
             </asp:DropDownList>
       </div>
         <div>
-            <asp:CheckBox ID="agreeCheck" Checked="false" Width="100%" runat="server" Text="Agree to policy" />
+            <asp:CheckBox ID="agreeCheck" Checked="false" Width="100%" runat="server" Text="Agree to policy" type="checkbox" />
         </div>
         <div style="text-align:center;">
             <asp:Label ID="errorLabel" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
+            <asp:Label ID="birthdayLabel" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
+            <asp:Label ID="studentExists" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
+            <asp:Label ID="phoneLabel" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
+            <asp:Label ID="personalCodeLabel" runat="server" ForeColor="Red" Width="100%" Text=""></asp:Label>
         </div>
         <div style="padding-top: 10px;">
             <asp:Button ID="registerButton" Width="100%" runat="server" OnClick="registerButton_Click" Text="Register" />
